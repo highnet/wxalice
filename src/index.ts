@@ -5,6 +5,6 @@ export default class Wxalice extends BaseExtension {
     console.log("Activated ", this.extensionName);
     setInterval(() => {
       this.dispatchEvent("helloBob", { message: "Hello Bob" });
-    }, 500000000);
+    }, 5000000);
   }
 }
